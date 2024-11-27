@@ -186,11 +186,11 @@ map.removeLayer(MasjidAtTanwir)
 map.removeLayer(KantorUPTKonservasiFlora)
 
 L.control.layers(baseMaps,overlayMaps, {collapsed : false}).addTo(map);
-L.geoJSON(batas).addTo(map);
-L.geoJSON(titik).addTo(map);
-L.geoJSON(jalan).addTo(map);
-L.geoJSON(bangunan).addTo(map);
-L.geoJSON(embungge).addTo(map);
+L.geojson(batas).addTo(map);
+L.geojson(TITIK).addTo(map);
+L.geojson(jalan).addTo(map);
+L.geojson(bangunan).addTo(map);
+L.geojson(embung).addTo(map);
 
 </script>
 </script>
